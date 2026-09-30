@@ -3,17 +3,6 @@
 const INITIAL_DATA = {
   users: [
     {
-      id: "usr_citizen_1",
-      name: "Anveshi Sharma",
-      email: "anveshi@citizen.org",
-      phone: "+91 98765 43210",
-      role: "citizen",
-      ward: "Ward 4 - Green Valley",
-      address: "Flat 402, Palm Heights, Green Valley Rd",
-      ecoPoints: 240,
-      avatar: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=150&q=80"
-    },
-    {
       id: "usr_admin_1",
       name: "Officer Rajesh Verma",
       email: "officer.verma@citycorp.gov.in",
