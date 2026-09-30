@@ -1,6 +1,42 @@
 // Initial Seed Data and Mock Database Store for Waste Management System
 
 const INITIAL_DATA = {
+   users: [
+     {
+      id: "usr_citizen_1",
+      name: "Anveshi Sharma",
+      email: "anveshi@citizen.org",
+      phone: "+91 98765 43210",
+      role: "citizen",
+      ward: "Ward 4 - Green Valley",
+      address: "Flat 402, Palm Heights, Green Valley Rd",
+      ecoPoints: 240,
+      avatar: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=150&q=80"
+    },
+    {
+      id: "usr_admin_1",
+      name: "Officer Rajesh Verma",
+      email: "officer.verma@citycorp.gov.in",
+      phone: "+91 94480 11223",
+      role: "admin",
+      ward: "Central Municipal Zone",
+      department: "Solid Waste & Sanitation Directorate",
+      designation: "Chief Sanitary Inspector",
+      ecoPoints: 500,
+      avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&q=80"
+    },
+    {
+      id: "usr_driver_1",
+      name: "Ramesh Kumar",
+      email: "driver.ramesh@cleanfleet.org",
+      phone: "+91 97722 33445",
+      role: "driver",
+      ward: "Ward 4 & Ward 5 Hub",
+      vehicle: "Hydraulic Compactor Truck #KA-05-GT-4821",
+      ecoPoints: 310,
+      avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=150&q=80"
+    }
+  ],
   sanitationTeams: [
     { id: "team_1", name: "Green Fleet Unit 04", lead: "Ramesh Kumar", vehicle: "Hydraulic Tipper #KA-05-GT-4821", phone: "+91 97722 33445", ward: "Ward 4 - Green Valley", activeJobs: 1 },
     { id: "team_2", name: "Central Rapid Response Crew", lead: "Sunil Shinde", vehicle: "Mini Compactor #KA-03-EM-9921", phone: "+91 98451 22344", ward: "Ward 2 - East Market", activeJobs: 2 },
